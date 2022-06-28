@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainhat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 6%;
+}
+
+.hat {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #dfc9df;
+    font-family: 'Josefin Sans', sans-serif;
+    color: red;
+}
+
+.hatname {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 275%;
+}
+
+.mainsite {
+    margin-top: 5%;
+    width: 100%;
+    height: 85.9%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainsiteA {
+    height: 100%;
+    width: 35%;
+}
+
+.Image {
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-image: url(../applications/Marvel_Studios_logo.jpg);
+}
+
+.images {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.image1 {
+    background-image: url(../applications/Marvel_Studios_logo.jpg);
+    width: 22%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2 {
+    background-image: url(../applications/Marvel_Studios_logo.jpg);
+    width: 22%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image3 {
+    background-image: url(../applications/Marvel_Studios_logo.jpg);
+    width: 22%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image4 {
+    background-image: url(../applications/Marvel_Studios_logo.jpg);
+    width: 22%;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainsiteB {
+    width: 35%;
+}
+
+.about {
+    font-size: 30px;
+    border-bottom: red;
+    border-style: solid;
+}
+.about:hover{
+    color: blue;
+    background: red;
+}
+
+.Text {
+    line-height: 26px;
+    font-size: 15px;
+}

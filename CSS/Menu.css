@@ -1,0 +1,64 @@
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.Header {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    background: azure;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header-name {
+    font-size: 4vh;
+    width: 68%;
+}
+
+.Menu1 {
+    width: 9%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu2 {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu3 {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu4 {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 16.8%;
+    width: 67%;
+}
+
+a:hover,
+a:active {
+    background-color: grey;
+}
